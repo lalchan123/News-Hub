@@ -11,12 +11,6 @@ News Hub uses django and django rest framework for it backend and React.js as cl
 ![NewsHub](sample/sample2.png)
 
 
-### Live Demo On
-
-https://news-hub-env-2f47.up.railway.app/
-or
-https://news-hub.onrender.com/
-
 
 ## Technologies 
 
