@@ -1,0 +1,9 @@
+.CommentForm{
+    max-width: 760px;
+    margin: 60px 0;
+}
+.CommentTag{
+    display: inline-block;
+    min-width: 210px;
+  
+}

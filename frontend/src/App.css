@@ -1,0 +1,17 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+ min-height: 80vh;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover,
+a:active{
+  color:#66FF66		
+}

@@ -1,0 +1,23 @@
+
+.SearchIcon{
+        width: 20%;
+        height: 40px;
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.SearchInputBase{
+    width: 80%;
+    float: right;
+
+}
+
+@media screen and (max-width: 760px ){
+    .SearchInputBase{
+    
+        background-color:rgb(252, 255, 254)
+    }
+    
+}

@@ -1,0 +1,41 @@
+.Mobile{
+  margin-bottom: 70px;
+}
+.Toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+} 
+
+.Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.IconBtnSearch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+    width: 105px;
+}
+
+.IconContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 5px;
+}
+
+.MobileSearch{
+    background-color: #E3170D;
+    color: #000;
+}
+
+@media screen and (min-width: 781px) {
+    .Mobile{
+        display: none;
+    }
+}

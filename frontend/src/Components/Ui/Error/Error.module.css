@@ -1,0 +1,7 @@
+.error {
+    min-width: 100%;
+    max-height: 100px;
+    background-color: #ffdddd;
+    padding: 2px 7px;
+    text-align: center
+}

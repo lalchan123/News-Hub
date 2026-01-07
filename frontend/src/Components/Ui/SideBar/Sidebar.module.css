@@ -1,0 +1,72 @@
+.TabsContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8470FF;
+}
+
+.Container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    max-width: 340px;
+    height: auto;
+    padding: 0;
+    margin: 7px 0 2px 2px;
+   overflow: hidden;
+   box-shadow: 2px 2px 5px rgb(0,0,0,0.2);  
+}
+
+.ImageContainer{
+    overflow: hidden;
+    width:30%;
+    margin: 0;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.ImageContainer img{
+    
+width: 75px;
+height: 75px;
+object-fit: cover;
+object-position: center center;
+}
+
+.Content{
+    width: 70%;
+  
+}
+
+.Category{
+  color: red;
+    margin:2px 3px 7px 8px ;
+    width: fit-content;
+}
+.Text{
+    margin: 2px 0 4px 5px;
+  
+}
+
+@media screen and ( max-width:900px) {
+    .TabsContainer{
+    margin-top: 30px;
+    }
+  
+    .Container{
+        max-width: 100%;
+        padding: 0 5px 0 5px;
+    }
+    .ImageContainer{
+  
+        width:auto;
+        margin: 0 10px 0 0;
+    }
+    .Content{
+        width: 70%;
+       
+    }
+}
